@@ -8,17 +8,17 @@ public class Exercicio04 {
         Scanner input = new Scanner(System.in);
 
         // Declarar variáveis
-        double raio, area, pi = 3.14;
+        double raio, area;
 
         // ler raio
         System.out.print("Introduza o raio: ");
         raio = input.nextDouble();
 
         // area da circunferencia é calculada através da multiplicação do PI por raio ao quadrado
-        area = pi * raio * raio;
+        area = 3.14 * raio * raio;
 
         // Apresentar resultado area da circunferencia
-        System.out.println("Area: " + area);
+        System.out.println("Area: " + area + "m2");
 
 
     }

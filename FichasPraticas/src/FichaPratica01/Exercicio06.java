@@ -8,7 +8,7 @@ public class Exercicio06 {
         Scanner input = new Scanner(System.in);
 
         // Declarar variáveis
-        int valor1, valor2, valor3;
+        int valor1, valor2;
 
         // ler valor1
         System.out.print("Introduza o valor 1: ");
