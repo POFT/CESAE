@@ -18,6 +18,7 @@ public class Ex_05 {
         valor2 = input.nextInt();
 
         //Escreva um programa que leia dois valores numéricos e apresente o menor e depois o maior.
+        //TAB = "\t"
         if (valor1 > valor2) {
             System.out.print(valor2 + "\t" + valor1);
         }else{

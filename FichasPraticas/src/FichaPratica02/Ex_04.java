@@ -13,6 +13,7 @@ public class Ex_04 {
         System.out.print("Introduza o seu lugar na corrida: ");
         lugar = input.nextInt();
 
+
         switch (lugar) {
             case 1:
                 System.out.print("Ganhou 10 pontos");

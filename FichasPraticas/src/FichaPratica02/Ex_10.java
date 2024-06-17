@@ -7,7 +7,8 @@ public class Ex_10 {
 
         Scanner input = new Scanner(System.in);
 
-        double num1, num2, operacao, resultado;
+        double num1, num2, resultado;
+        String operacao;
 
         //ler numeros reais
         System.out.print("Introduza um número: ");
@@ -17,25 +18,27 @@ public class Ex_10 {
 
         //ler operacao aritemetica
         System.out.println("Digite o simbolo de acordo com aperação a realizar, somar(+), subtrair(-), multiplicar(*), dividir(/): ");
-        operacao = input.nextDouble();
+        operacao = input.next();
+
         //dados do tipo char armazenam (num byte) um único caractere. Delimita-se com '...' (plicas)
+        // SE o valor introduzido é diferente devolve erro.
 
 
         // Executar a operacao de acordo com o simbolo
         switch (operacao) {
-            case '+':
+            case "+":
                 resultado = num1 + num2;
                 System.out.println("Somar: " + resultado);
                 break;
-            case '-':
+            case "-":
                 resultado = num1 - num2;
                 System.out.println("Subtrair: " + resultado);
                 break;
-            case '*':
+            case "*":
                 resultado = num1 * num2;
                 System.out.println("Multiplicar: " + resultado);
                 break;
-            case '/':
+            case "/":
                 resultado = num1 / num2;
                 System.out.println("Dividir " + resultado);
                 break;
@@ -44,6 +47,7 @@ public class Ex_10 {
                 break;
 
         }
+
 
     }
 }

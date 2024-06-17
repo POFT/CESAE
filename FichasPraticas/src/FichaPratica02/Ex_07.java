@@ -14,7 +14,7 @@ public class Ex_07 {
 
         //Apresentar se é par ou ímpar
         //Um número é considerado par se for igualmente divisível por 2, ou seja, não deixa resto quando dividido por 2
-        //SE o resto do valor a dividir por 2 é igual a 0 então é par.
+        //SE o resto(%) do valor a dividir por 2 é igual a 0 então é par.
 
         if (valor%2==0){
             System.out.println("O número é par.");
