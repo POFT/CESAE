@@ -1,8 +1,8 @@
-package FichaPratica01;
+package FichaPratica02;
 
 import java.util.Scanner;
 
-public class Exercicio09 {
+public class Ex_18 {
     public static void main(String[] args) {
 
         // Import Scanner - uso sempre que precisar de ler coisas do teclado
