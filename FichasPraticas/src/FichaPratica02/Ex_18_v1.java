@@ -51,7 +51,7 @@ public class Ex_18_v1 {
 
         if (vencimento + subAlimentacao <= 1000) {
             retencaoIRS = (vencimento + subAlimentacao) * 0.1;
-            System.out.print("Retenção de IRS: "+ retencaoIRS + "€");
+            System.out.println("Retenção de IRS: "+ retencaoIRS + "€");
         } else {
             retencaoIRS = (vencimento + subAlimentacao) * 0.2;
             System.out.println("Retenção de IRS: "+ retencaoIRS + "€");

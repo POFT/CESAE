@@ -7,7 +7,7 @@ public class Ex_01 {
         //PPT - Estrutura de Repetição ou Ciclo, este programa escreve os números inteiros de 1 a 250 inclusive.
 
         int numero;
-        numero = 1;
+        numero = 0;
 
         while (numero <=250){
             System.out.println(numero);

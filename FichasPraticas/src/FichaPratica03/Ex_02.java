@@ -8,12 +8,13 @@ public class Ex_02 {
         // (Não necessita de Scanner ou input do utilizador).
 
         int numero;
-        numero = 1;
+        numero =0;
 
-        while (numero <=400){
+        while (numero <= 400) {
             System.out.println(numero);
-            numero = numero + 1;
+            numero = numero + 2;
 
 
+        }
     }
 }
