@@ -6,8 +6,7 @@ public class Ex_03 {
         //Faça um programa que imprima os números ímpares no intervalo de 531 a 750 inclusive.
         // (Não necessita de Scanner ou input do utilizador)
 
-        int number;
-        number = 531;
+        int number = 531;
 
         while (number <=750){
             System.out.println(number);
