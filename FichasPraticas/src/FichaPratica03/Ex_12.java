@@ -18,24 +18,25 @@ public class Ex_12 {
         while (numerUser >= 0){
             System.out.println("Introduza um número: ");
             numerUser = input.nextInt();
-            if (numerUser < 0){
+            if (numerUser > 0 && numerUser <= 25) {
                 count1 = count1 + 1;
-                System.out.println("-[0.25]: " + count1);
-                
-                System.out.println("-[26,50]: " + count2);
+            }
+            if (numerUser > 26 && numerUser <= 50) {
                 count2 = count2 + 1;
-                System.out.println("-[51,75]: " + count3);
+            }
+            if (numerUser > 51 && numerUser <= 75) {
                 count3 = count3 + 1;
-                System.out.println("-[76,100]: " + count4);
+            }
+            if (numerUser > 76 && numerUser <= 100) {
                 count4 = count4 + 1;
             }
         }
+        System.out.println("-[0.25]: " + count1);
+        System.out.println("-[26,50]: " + count2);
+        System.out.println("-[51,75]: " + count3);
+        System.out.println("-[76,100]: " + count4);
 
-//count1 = count1 + 1;
-        //Escreva um algoritmo que leia uma quantidade desconhecida de números inteiros positivos fornecidos pelo
-        //utilizador e conte quantos deles estão nos seguintes intervalos: [0.25], [26,50], [51,75] e [76,100].
-        //A entrada de dados deve terminar quando for lido um número negativo.
-            // Se numero inserido é negativo termina
+
 
 
 
