@@ -22,7 +22,7 @@ public class Ex_10 {
                 inicio = inicio + 2;
             }else{
                 numUser = numUser - 1;
-                System.out.println(" Numeros pares: " + inicio);
+                System.out.println("Numeros pares: " + inicio);
                 inicio = inicio + 2;
             }
         }

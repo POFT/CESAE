@@ -8,18 +8,18 @@ public class Ex_11 {
         Scanner input =new Scanner(System.in);
 
         //Declarar variaveis
-        int inicio=0, limite, salto;
+        int inicio=0, salto, fim;
 
-        //Ler um número inteiro (variavel limite)
+        //Ler um número inteiro (variavel fim)
         System.out.println("Introduza um limite: ");
-        limite = input.nextInt();
+        fim = input.nextInt();
 
         //Ler um incremento (variavel salto)
         System.out.println("Introduza um salto: ");
         salto = input.nextInt();
 
         //e imprima os números inteiros de 0 até limite inclusive, com incremento de salto.
-        while (inicio <= limite){
+        while (inicio <= fim){
             System.out.println(inicio);
             inicio = inicio + salto;
         }
