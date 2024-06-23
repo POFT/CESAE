@@ -5,7 +5,13 @@ import java.util.Scanner;
 public class Ex_05_v1 {
     public static void main(String[] args) {
         //Ex_05: Escreva um programa que determine a média aritmética de um conjunto de 3 valores introduzidos pelo utilizador.
-            // Como calcular media Aritemetica? é a soma dos valores a dividir total dos elementos.
+            // Como calcular media Aritemetica?
+                //a média é a soma dos valores a dividir total dos elementos.
+                //Algoritmo:
+                    // LER cada um dos 3 valores,
+                    // SOMAR cada um dos 3 valores,
+                    // DIVIDIR o somatório por 3,
+                    // APRESENTAR o resultado.
         // Tendo em consideração os valores introduzidos, deverá também apresentar a média ponderada considerando as seguintes ponderações: 20%, 30%, 50%.
             // Como calcular media ponderada? é multiplcar pelo valor ponderado.
 

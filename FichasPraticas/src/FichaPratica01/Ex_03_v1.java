@@ -5,10 +5,12 @@ import java.util.Scanner;
 public class Ex_03_v1 {
     public static void main(String[] args) {
         //Ex_03: Escreva um programa que calcule e apresente a área e o perímetro de um retângulo.
-            // Para este exercicio basta calcular o produto entre a sua base e a sua altura, ou seja, a área é dada pela fórmula A=b⋅h.
-            // Além da área, outra grandeza importante é o perímetro.
-            // Para calcular o perímetro de um retângulo, deve-se somar os seus quatro lados.
         // As dimensões devem ser requisitadas ao utilizador.
+            // Algoritmo:
+                // LER o valor de 2 lados, (comprimento e largura),
+                // MULTIPLICAR os 2 valores, Área = lado A x lado B,
+                // SOMAR os seus quatro lados, Perímetro = Lado A + Lado A + Lado B + Lado B,
+                // APRESENTAR o resultado.
 
 
 
