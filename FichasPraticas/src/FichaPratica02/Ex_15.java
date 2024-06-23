@@ -22,7 +22,8 @@ public class Ex_15 {
         System.out.println("Introduza (C) para ordem crescende ou (D) para Decrescente:");
         operacao = input.next();
         //SE a < b && a < c
-        //SE b < a && b < c
+        //SE b < a
+        // && b < c
         //SE c < a && c < b
 
 switch (operacao){
