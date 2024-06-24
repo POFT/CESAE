@@ -25,7 +25,7 @@ public class Ex_15 {
                 fatorial *= 1; // preciso de entender o raciocinio
                 inicio = inicio + 1;
             }
-            System.out.print("O fatorial de " + numeroUser + " é: " + fatorial);
+            System.out.print("O fatorial de " + numeroUser + " é " + fatorial);
         }
 
 
