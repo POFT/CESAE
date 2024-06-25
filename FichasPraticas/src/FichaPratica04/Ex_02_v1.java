@@ -19,6 +19,7 @@ public class Ex_02_v1 {
             System.out.println("2. Atualizar");
             System.out.println("3. Eliminar");
             System.out.println("4. Sair");
+            System.out.println("Escolha uma opção: ");
             numeroUser = input.nextInt();
             switch (numeroUser) {
                 case 1:
@@ -34,7 +35,7 @@ public class Ex_02_v1 {
                     System.out.println("Sair");
                     break;
                 default:
-                    System.out.println("Opção Inválida!");
+                    System.out.println("Escolheu uma opção inválida!");
             }
         } while (numeroUser != 4);
 
