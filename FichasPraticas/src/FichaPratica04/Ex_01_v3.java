@@ -2,20 +2,17 @@ package FichaPratica04;
 
 import java.util.Scanner;
 
-public class Ex_01_v2 {
+public class Ex_01_v3 {
     public static void main(String[] args) {
 
-        //Ex_01: Implemente um programa que peça ao utilizador dois valores e um carácter representando uma das quatro operações aritméticas (+, -, *, /).
-        // Apresente o resultado de aplicar a operação correspondente aos valores.
-        // No final, deverá perguntar ao utilizador se deseja repetir, permitindo-lhe efetuar novos cálculos.
-        //Exemplo: Deseja continuar? (introduza s/n).
-
         Scanner input = new Scanner(System.in);
+
+
         int numeroUser1, numeroUser2;
-        String operacao, funcao;
+        String operacao;
 
-
-        do { //FAZER...
+        for (int funcao = 0;funcao != 0;funcao++) { //PARA...
+            System.out.println(funcao);
             System.out.println("Introduza um valor: "); //Instrução
             numeroUser1 = input.nextInt();
             System.out.println("Introduza outro valor: "); //Instrução2
@@ -39,8 +36,8 @@ public class Ex_01_v2 {
                 default:
                     System.out.println("Opção Inválida!");
             }
-            System.out.println("Deseja continuar? (introduza s/n)");
-            funcao = input.next();
-        } while (funcao.equals("s")); // ENQUANTO...é Verdadeira (funcao é igual a "s"), quando é falsa o ciclo termina e o algoritmo continua na instrução imediatamente a seguir.
+            System.out.println("Deseja continuar? (introduza 1. Sim/0. Não");
+            funcao = input.nextInt();
+        }
     }
 }
