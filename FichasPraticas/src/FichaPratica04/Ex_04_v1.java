@@ -21,7 +21,7 @@ public class Ex_04_v1 {
             if (numUser <= 0) { //Se o número for menor a 1, ele não é primo
                 System.out.println(numUser + " não é um número primo.");
             }
-            if (numUser % numUser == 1) { //Para os números maiores que 1, verificar se há algum número entre 2 e a raiz quadrada do número que possa dividi-lo sem deixar resto.
+            if (numUser % 2 == 0) { //SE o resto do numero a dividir por 2 == 0.
                 System.out.println(numUser + " é um número primo.");
             }else{
                 System.out.println(numUser + " não é um número primo.");

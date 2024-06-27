@@ -2,7 +2,7 @@ package FichaPratica04;
 
 import java.util.Scanner;
 
-public class Ex_02_v1 {
+public class Ex_02_v1_do {
     public static void main(String[] args) {
 
         // Implemente um programa que leia a opção do menu desejada (opções: 1. Criar, 2. Atualizar, 3. Eliminar, 4. Sair).
