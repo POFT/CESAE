@@ -14,25 +14,25 @@ public class Ex_02_v1 {
         int numeroUser;
 
 
-        do {
-            System.out.println("1. Criar");
-            System.out.println("2. Atualizar");
-            System.out.println("3. Eliminar");
-            System.out.println("4. Sair");
-            System.out.println("Escolha uma opção: ");
+        do { //FAZER...
+            System.out.println("- Escolha uma opção: "); //Instrução
+            System.out.println("1. Criar");  //Instrução 1
+            System.out.println("2. Atualizar"); //Instrução 2
+            System.out.println("3. Eliminar"); //Instrução 3
+            System.out.println("4. Sair"); //Instrução 4
             numeroUser = input.nextInt();
             switch (numeroUser) {
                 case 1:
-                    System.out.println("Escolheu a opção 1. Criar");
+                    System.out.println("Escolheu a opção (Criar).");
                     break;
                 case 2:
-                    System.out.println("Escolheu a opção 2. Atualizar");
+                    System.out.println("Escolheu a opção (Atualizar).");
                     break;
                 case 3:
-                    System.out.println("Escolheu a opção 3. Eliminar");
+                    System.out.println("Escolheu a opção (Eliminar).");
                     break;
                 case 4:
-                    System.out.println("Sair");
+                    System.out.println("Sair...");
                     break;
                 default:
                     System.out.println("Escolheu uma opção inválida!");
