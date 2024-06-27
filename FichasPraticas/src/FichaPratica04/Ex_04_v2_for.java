@@ -31,6 +31,7 @@ public class Ex_04_v2_for {
             System.out.println(numUser + " é um número primo.");
         }else{
             System.out.println(numUser + " não é um número primo.");
+            
         }
     }
 }
