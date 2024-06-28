@@ -7,8 +7,7 @@ public class Ex_14 {
 
         Scanner input = new Scanner(System.in);
 
-        // Escreva um programa que leia uma sequência de números inteiros do utilizador e determine se a sequência
-        //está em ordem crescente.
+        // Escreva um programa que leia uma sequência de números inteiros do utilizador e determine se a sequência está em ordem crescente.
 
         //Declarar variaveis
         int inicio=1, countUser, numUser=0,guardarValor=0;
