@@ -2,15 +2,15 @@ package FichaPratica05;
 
 import java.util.Scanner;
 
-public class Ex_13_v1 {
+public class Ex_11_v2 {
     public static void main(String[] args) {
 
-        // Import Scanner
+// Import Scanner
         Scanner input = new Scanner(System.in);
 
         // Declarar variáveis
-        int[][] matriz = new int[4][4];
-        int somatorio = 0;
+        int[][] matriz = new int[3][3];
+        int menor, maior;
 
         // Ler matriz
         for (int linha = 0; linha < matriz.length; linha++) {
@@ -28,17 +28,26 @@ public class Ex_13_v1 {
             System.out.println();
         }
 
-        // Encontrar o somatorio da diagonal principal
+        maior = matriz[0][0];
+        menor = matriz[0][0];
+
+        // Encontrar o maior e o menor
         for (int linha = 0; linha < matriz.length; linha++) {
             for (int coluna = 0; coluna < matriz[0].length; coluna++) {
 
-                if (linha == coluna) {
-                    somatorio = somatorio + matriz[linha][coluna];
+                if (matriz[linha][coluna] < menor) {
+                    menor = matriz[linha][coluna];
                 }
 
+                if (matriz[linha][coluna] > maior) {
+                    maior = matriz[linha][coluna];
+                }
             }
         }
 
-        System.out.println("Somatório da Diagonal Principal: " + somatorio);
+        System.out.println("Menor: " + menor);
+        System.out.println("Maior: " + maior);
+
+
     }
 }

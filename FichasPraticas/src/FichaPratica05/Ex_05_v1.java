@@ -14,7 +14,7 @@ public class Ex_05_v1 {
 
 
         for (int i = 0; i < vetor.length; i++) {
-            System.out.println("Insira um valor["+i+"]: ");
+            System.out.println("- Insira no Vetor["+ i +"]: ");
             vetor[i] = input.nextDouble();
 
         }
@@ -23,9 +23,9 @@ public class Ex_05_v1 {
         //Calculo (somar os valores) e (dividir pelos elementos)
         for (int i = 0; i < vetor.length; i++) {
             soma = soma + vetor[i]; //Soma = soma + vetor na posição atual.
-            media = soma / vetor.length; //media = soma + a quantidade de vetores.
-
         }
+
+        media = soma / vetor.length; //media = soma + a quantidade de vetores.
         System.out.println("Média: " + media); //imprimir valor média
 
     }

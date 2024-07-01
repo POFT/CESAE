@@ -5,17 +5,23 @@ import java.util.Scanner;
 
 public class Ex_01_v1 {
     public static void main(String[] args) {
-
+    // Ex_01.  Implemente um programa que permita adicionar 10 números inteiros a um array e que os imprima pela ordem de inserção
         Scanner input = new Scanner(System.in);
 
-        //Declarar variaveis
-        int[] vetor = new int[10];
+        //Declarar variaveis, vetor/array e numero de input's inteiro a considerar
+        int[] array = new int[10];
 
-        //ler valor
-        for (int i = 0; i < 10; i++) {
-            System.out.println("Insira no Vetor["+i+"]: ");
-            vetor[i] = input.nextInt();
+        //Ler valor/input user
+        for (int i = 0; i < array.length; i++) { //"array.lenght" corresponde ao valor definido na variavel "new int[10]"
+            System.out.println("- Insira um número no Array["+i+"]: ");
+            array[i] = input.nextInt();
 
+        }
+        System.out.println("\n___________________________________________\n");
+
+        // Imprimir (input do user) array
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("Array[" + i + "] = " + array[i]);
         }
     }
 }
