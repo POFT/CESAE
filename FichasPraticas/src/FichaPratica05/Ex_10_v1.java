@@ -11,28 +11,46 @@ public class Ex_10_v1 {
 
         //Declarar variaveis
         int[ ][ ] matriz = new int[3][5];
-        int quantidade=0;
+        int outroValor;
+        int contador=0;
 
-        //Ler os valores
-        for (int i = 0; i < matriz.length; i++){
-            for (int j = 0; j < matriz.length; j++){
-                System.out.println("Insira um nº inteiro["+i+"]: ");
-                matriz[i][j] = input.nextInt();
+
+        //Ler os numeros inteiros para a tabela/matriz (input do user)
+        for (int linha = 0; linha < matriz.length; linha++){
+            for (int coluna = 0; coluna < matriz[0].length; coluna++){ //[0] serve para isolar uma linha para saber quantas colunas tem. (sem aplicabilidade nos exercicios)
+                System.out.println("- Insira um nº inteiro["+ linha +"]["+ coluna +"]: ");
+                matriz[linha][coluna] = input.nextInt();
             }
+        }// bate aqui e só avança depois de linha for igual ou valor definido para a matriz.
+
+        System.out.println("\n__________________________________\n"); // Linha apenas para separar
+
+        System.out.println("(tabela/matriz)");
+        System.out.print(" ");
+
+        for (int linha = 0; linha < matriz.length; linha++){
+            for (int coluna = 0; coluna < matriz[0].length; coluna++){
+                System.out.print(matriz[linha][coluna] + "\t|\t");
+            }
+            System.out.println(); //Aplica um Enter
         }
 
         System.out.println("\n__________________________________\n"); // Linha apenas para separar
 
-        //imprime os valores inseridos
-        for (int i = 0; i < matriz.length; i++){
-            System.out.println();
-            for (int j = 0; j < matriz.length; j++){
-                System.out.print(matriz[i][j] + " ");
+        //Ler o outroValor (input do user)
+        System.out.println("- Insira um valor: ");
+        outroValor = input.nextInt();
+
+        //contador para guardar quantas vezes o "outroValor" existe na tabela/matriz
+        for (int linha = 0; linha < matriz.length; linha++){
+            for (int coluna = 0; coluna < matriz[0].length; coluna++){
+                if (matriz[linha][coluna] == outroValor){ //Se na minha matriz na posição atual o valor é IGUAL ao outroValor...
+                    contador++; //... vai contar.
+                }
             }
         }
-        System.out.println("\n__________________________________\n"); // Linha apenas para separar
 
-        //imprime somatorio de todos os valores:
-        System.out.println("Soma: " + quantidade);
+        System.out.println("\n__________________________________\n"); // Linha apenas para separar
+        System.out.println("- Contador da tabela/matriz: " + contador); // Imprimir resultado do contador.
     }
 }
